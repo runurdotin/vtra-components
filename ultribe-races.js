@@ -30,11 +30,11 @@ class UltibeRaces extends HTMLElement {
   display:flex;align-items:center;justify-content:space-between;
   position:sticky;top:0;z-index:100;
 }
-.nav-logo{font-weight:800;font-size:24px;letter-spacing:.5px}
+.nav-logo{font-weight:800;font-size:26.4px;letter-spacing:.5px}
 .nav-logo b{color:var(--o)}
 .nav-btn{
   background:var(--o);color:#fff;border:none;border-radius:30px;
-  padding:10px 26px;font-size:15px;font-weight:700;text-transform:uppercase;
+  padding:10px 26px;font-size:16.5px;font-weight:700;text-transform:uppercase;
   letter-spacing:.5px;cursor:pointer;transition:background .15s,transform .1s;
   -webkit-tap-highlight-color:transparent;font-family:inherit;
 }
@@ -47,13 +47,13 @@ class UltibeRaces extends HTMLElement {
   display:flex;flex-wrap:wrap;align-items:flex-end;
   justify-content:space-between;gap:8px;
 }
-.hero-eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:2.5px;color:var(--o);font-weight:700;margin-bottom:6px}
-.hero-title{font-size:clamp(32px,6vw,52px);font-weight:800;letter-spacing:-.5px;line-height:1.05}
+.hero-eyebrow{font-size:14.3px;text-transform:uppercase;letter-spacing:2.5px;color:var(--o);font-weight:700;margin-bottom:6px}
+.hero-title{font-size:clamp(35.2px,6vw,57.2px);font-weight:800;letter-spacing:-.5px;line-height:1.05}
 .hero-title em{font-style:normal;color:var(--o)}
 .hero-pills{display:flex;flex-wrap:wrap;gap:6px;align-self:flex-end}
 .hero-pill{
   background:var(--o10);border:1px solid var(--o20);
-  color:var(--o);font-size:13px;font-weight:700;
+  color:var(--o);font-size:14.3px;font-weight:700;
   padding:4px 12px;border-radius:30px;text-transform:uppercase;letter-spacing:.5px;
 }
 
@@ -70,8 +70,8 @@ class UltibeRaces extends HTMLElement {
   cursor:pointer;transition:background .18s,box-shadow .18s;
   -webkit-tap-highlight-color:transparent;touch-action:manipulation;font-family:inherit;
 }
-.cat-tab .td{font-size:22px;font-weight:800;color:var(--muted);line-height:1;transition:color .18s}
-.cat-tab .tn{font-size:13px;text-transform:uppercase;letter-spacing:1px;font-weight:600;color:var(--muted);margin-top:3px;white-space:nowrap;transition:color .18s}
+.cat-tab .td{font-size:24.2px;font-weight:800;color:var(--muted);line-height:1;transition:color .18s}
+.cat-tab .tn{font-size:14.3px;text-transform:uppercase;letter-spacing:1px;font-weight:600;color:var(--muted);margin-top:3px;white-space:nowrap;transition:color .18s}
 .cat-tab.on{background:var(--o);box-shadow:0 4px 14px rgba(232,93,42,.28)}
 .cat-tab.on .td,.cat-tab.on .tn{color:#fff}
 
@@ -81,8 +81,8 @@ class UltibeRaces extends HTMLElement {
 .stat-item{flex:1;min-width:90px;padding:0 14px 14px;border-right:1px solid var(--line)}
 .stat-item:first-child{padding-left:0}
 .stat-item:last-child{border-right:none}
-.stat-lbl{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);font-weight:600}
-.stat-val{font-size:20px;font-weight:800;color:var(--ink);margin-top:3px}
+.stat-lbl{font-size:13.2px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);font-weight:600}
+.stat-val{font-size:22.0px;font-weight:800;color:var(--ink);margin-top:3px}
 .stat-val span{color:var(--o)}
 
 /* INFO TABS */
@@ -91,7 +91,7 @@ class UltibeRaces extends HTMLElement {
 .info-tabs{display:flex;gap:6px;width:fit-content}
 .info-tab{
   padding:7px 16px;border-radius:30px;border:1.5px solid var(--line);
-  background:transparent;font-size:15px;font-weight:700;
+  background:transparent;font-size:16.5px;font-weight:700;
   text-transform:uppercase;letter-spacing:.6px;color:var(--muted);
   cursor:pointer;transition:all .15s;white-space:nowrap;font-family:inherit;
   -webkit-tap-highlight-color:transparent;touch-action:manipulation;
@@ -113,22 +113,22 @@ class UltibeRaces extends HTMLElement {
   background:linear-gradient(130deg,#1a1208 0%,#2e1a08 100%);
   border-color:transparent;
 }
-.tile.wide h4{color:#fff;font-size:19px}
-.tile.wide p{color:rgba(255,255,255,.72);font-size:15px}
+.tile.wide h4{color:#fff;font-size:20.9px}
+.tile.wide p{color:rgba(255,255,255,.72);font-size:16.5px}
 .tile-icon{
   width:36px;height:36px;border-radius:10px;
   background:var(--o10);border:1.5px solid var(--o20);
   display:flex;align-items:center;justify-content:center;
-  margin-bottom:12px;font-size:22px;line-height:1;
+  margin-bottom:12px;font-size:24.2px;line-height:1;
 }
 .tile.wide .tile-icon{background:rgba(232,93,42,.18);border-color:rgba(232,93,42,.3)}
 .tile-badge{
   display:inline-block;background:var(--o);color:#fff;
-  font-size:12px;font-weight:800;text-transform:uppercase;
+  font-size:13.2px;font-weight:800;text-transform:uppercase;
   letter-spacing:.8px;padding:3px 12px;border-radius:30px;margin-bottom:10px;
 }
-.tile h4{font-size:17px;font-weight:700;color:var(--ink);margin-bottom:5px;line-height:1.3}
-.tile p{font-size:15px;color:var(--muted);line-height:1.55}
+.tile h4{font-size:18.7px;font-weight:700;color:var(--ink);margin-bottom:5px;line-height:1.3}
+.tile p{font-size:16.5px;color:var(--muted);line-height:1.55}
 
 /* PANELS */
 .panel{display:none}
@@ -139,9 +139,9 @@ class UltibeRaces extends HTMLElement {
   .tile-grid{grid-template-columns:1fr;gap:8px;padding:12px 16px 20px}
   .tile.wide{grid-column:span 1}
   .cat-tab{min-width:60px;padding:8px 8px}
-  .cat-tab .td{font-size:18px}
-  .info-tab{font-size:13px;padding:6px 14px}
-  .hero-title{font-size:28px}
+  .cat-tab .td{font-size:19.8px}
+  .info-tab{font-size:14.3px;padding:6px 14px}
+  .hero-title{font-size:30.8px}
 }
 </style>
 
