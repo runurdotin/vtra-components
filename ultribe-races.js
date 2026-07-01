@@ -437,8 +437,7 @@ class UltibeRaces extends HTMLElement {
     }, { passive: false });
 
     root.getElementById('regBtn').addEventListener('click', () => {
-      // Fire a custom event — Wix Velo can listen to this
-      this.dispatchEvent(new CustomEvent('register', { bubbles: true }));
+      window.open('https://www.vtra.run/schedule', '_top');
     });
   }
 }
