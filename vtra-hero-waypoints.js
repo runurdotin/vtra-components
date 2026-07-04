@@ -175,7 +175,7 @@ class VtraHeroWaypoints extends HTMLElement {
           <span>Visakha Trail Running Association</span>
         </div>
 
-        <h1 class="headline" data-reveal>Four events. <em>One trail.</em></h1>
+        <h1 class="headline" data-reveal>FOR THE JOY OF RUNNING. <em>FOR THE LOVE OF VIZAG.</em></h1>
         <p class="subhead" data-reveal>From GITAM's tarmac to the hills of Paderu — VTRA's flagship races for every kind of runner.</p>
 
         <div class="trail-wrap">
